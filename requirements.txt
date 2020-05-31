@@ -1,0 +1,6 @@
+awswrangler
+ipython-sql
+jupyterlab
+matplotlib
+pandas
+sqlalchemy
