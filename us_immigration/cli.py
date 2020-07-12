@@ -2,14 +2,22 @@
 import sys
 import click
 
+from . import api
 
-@click.command()
-def main(args=None):
-    """Console script for us_immigration."""
-    click.echo("Replace this message by putting your code into "
-               "us_immigration.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
-    return 0
+
+@click.group()
+def main():
+    pass
+
+
+@main.command()
+def ingest():
+    api.ingest_data()
+
+
+@main.command()
+def model():
+    api.build_data_model()
 
 
 if __name__ == "__main__":

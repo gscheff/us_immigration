@@ -1,5 +1,5 @@
 Welcome to US Immigration's documentation!
-======================================
+==========================================
 
 .. toctree::
    :maxdepth: 2

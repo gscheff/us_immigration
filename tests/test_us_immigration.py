@@ -6,7 +6,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from us_immigration import us_immigration
 from us_immigration import cli
 
 
