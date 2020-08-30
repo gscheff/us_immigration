@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+csvkit = "*"
+flake8 = "*"
+ipython = "*"
+ipython-sql = "*"
+jupyterlab = "*"
+matplotlib = "*"
+mypy = "*"
+pdbpp = "*"
+pytest = "*"
+pytest-mock = "*"
+us-immigration = {editable = true, path = "."}
+pre-commit = "*"
+
+[packages]
+awswrangler = "*"
+click = "*"
+environs = "*"
+furl = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"

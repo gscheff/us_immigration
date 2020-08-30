@@ -11,19 +11,18 @@ from .ingestion import (
     I94visaIngestion,
     RegionIngestion,
 )
-from . import view
+from . import dimension
+from . import fact
 
 
-__all__ = ['config', 'ingest_data', ' build_data_model']
+__all__ = ['ingest_data', 'build_data_model']
 
 
 def ingest_data():
     options = dict(
         database=config.ATHENA_DATABASE,
         bucket=config.S3_BUCKET,
-        prefix=config.S3_PREFIX,
-        profile=config.AWS_PROFILE,
-        region=config.AWS_REGION,
+        prefix=config.S3_PREPROCESSED_PREFIX,
     )
 
     # I94modeIngestion(table=config.I94MODE_TABLE, **options)()
@@ -59,15 +58,27 @@ def ingest_data():
 
 
 def build_data_model():
-
+    database = config.ATHENA_DATABASE
     options = dict(
-        database=config.ATHENA_DATABASE,
-        profile=config.AWS_PROFILE,
-        region=config.AWS_REGION,
+        bucket=config.S3_BUCKET,
+        prefix=config.S3_PROCESSED_PREFIX,
+        database=database,
     )
 
-    create_fact_demographics = view.FactDemographicsView(**options)
-    create_fact_immigration = view.FactImmigrationView(**options)
+    fact.FactDemographicsTable(database)()
+    dimension.DimCountryTable(table=config.DIM_COUNTRY_TABLE, **options)()
+    dimension.DimPortTable(table=config.DIM_PORT_TABLE, **options)()
+    dimension.DimStateTable(table=config.DIM_STATE_TABLE, **options)()
+    fact.CreateFactImmigrationTable(database)()
+    fact.RepairFactImmigrationTable(database)()
 
-    create_fact_demographics()
-    create_fact_immigration()
+
+def upsert_fact_table(day):
+    options = dict(
+        day=day,
+        table=config.FACT_IMMIGRATION_TABLE,
+        database=config.ATHENA_DATABASE,
+        bucket=config.S3_BUCKET,
+        prefix=config.S3_PROCESSED_PREFIX,
+    )
+    fact.UpsertFactImmigrationTable(**options)()

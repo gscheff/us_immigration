@@ -1,0 +1,51 @@
+City;State;Median Age;Male Population;Female Population;Total Population;Number of Veterans;Foreign-born;Average Household Size;State Code;Race;Count
+Silver Spring;Maryland;33.8;40601;41862;82463;1562;30908;2.6;MD;Hispanic or Latino;25924
+Quincy;Massachusetts;41.0;44129;49500;93629;4147;32935;2.39;MA;White;58723
+Hoover;Alabama;38.5;38040;46799;84839;4819;8229;2.58;AL;Asian;4759
+Rancho Cucamonga;California;34.5;88127;87105;175232;5821;33878;3.18;CA;Black or African-American;24437
+Newark;New Jersey;34.6;138040;143873;281913;5829;86253;2.73;NJ;White;76402
+Peoria;Illinois;33.1;56229;62432;118661;6634;7517;2.4;IL;American Indian and Alaska Native;1343
+Avondale;Arizona;29.1;38712;41971;80683;4815;8355;3.18;AZ;Black or African-American;11592
+West Covina;California;39.8;51629;56860;108489;3800;37038;3.56;CA;Asian;32716
+O'Fallon;Missouri;36.0;41762;43270;85032;5783;3269;2.77;MO;Hispanic or Latino;2583
+High Point;North Carolina;35.5;51751;58077;109828;5204;16315;2.65;NC;Asian;11060
+Folsom;California;40.9;41051;35317;76368;4187;13234;2.62;CA;Hispanic or Latino;5822
+Folsom;California;40.9;41051;35317;76368;4187;13234;2.62;CA;American Indian and Alaska Native;998
+Philadelphia;Pennsylvania;34.1;741270;826172;1567442;61995;205339;2.61;PA;Asian;122721
+Wichita;Kansas;34.6;192354;197601;389955;23978;40270;2.56;KS;Hispanic or Latino;65162
+Wichita;Kansas;34.6;192354;197601;389955;23978;40270;2.56;KS;American Indian and Alaska Native;8791
+Fort Myers;Florida;37.3;36850;37165;74015;4312;15365;2.45;FL;White;50169
+Pittsburgh;Pennsylvania;32.9;149690;154695;304385;17728;28187;2.13;PA;White;208863
+Laredo;Texas;28.8;124305;131484;255789;4921;68427;3.66;TX;American Indian and Alaska Native;1253
+Berkeley;California;32.5;60142;60829;120971;3736;25000;2.35;CA;Asian;27089
+Santa Clara;California;35.2;63278;62938;126216;4426;52281;2.75;CA;White;55847
+Allen;Pennsylvania;33.5;60626;59581;120207;5691;19652;2.67;PA;Black or African-American;22304
+Hampton;Virginia;35.5;66214;70240;136454;19638;6204;2.48;VA;Black or African-American;70303
+Bolingbrook;Illinois;33.7;36295;35801;72096;2951;15212;3.42;IL;American Indian and Alaska Native;323
+Frederick;Maryland;36.1;33146;36336;69482;3870;14211;2.48;MD;White;49181
+Sparks;Nevada;36.1;47780;48318;96098;7315;15690;2.63;NV;Hispanic or Latino;29159
+Rancho Cordova;California;33.8;34844;36182;71026;4590;17020;2.86;CA;Asian;12653
+Westminster;Colorado;37.8;54866;58251;113117;6512;11361;2.63;CO;Hispanic or Latino;23355
+Lakewood;Colorado;37.7;76013;76576;152589;9988;14169;2.29;CO;Hispanic or Latino;33630
+Flint;Michigan;35.3;48984;49313;98297;3757;2138;2.38;MI;White;44786
+New Haven;Connecticut;29.9;63765;66545;130310;2567;25871;2.48;CT;American Indian and Alaska Native;2205
+Brooklyn Park;Minnesota;35.1;37845;41305;79150;3506;17490;2.85;MN;White;41760
+Chula Vista;California;34.6;131485;134269;265754;12368;82710;3.32;CA;Hispanic or Latino;156522
+Danbury;Connecticut;37.3;43435;41227;84662;3752;25675;2.74;CT;Black or African-American;8454
+Framingham;Massachusetts;40.3;35442;35768;71210;2625;19070;2.49;MA;Black or African-American;6944
+Saint Petersburg;Florida;41.8;123524;133564;257088;20247;28567;2.42;FL;White;179121
+Miami Gardens;Florida;34.9;50719;62480;113199;2327;33394;3.75;FL;Black or African-American;85300
+Salt Lake City;Utah;32.1;98364;94296;192660;6829;32166;2.38;UT;Asian;13153
+Suffolk;Virginia;38.2;43048;45113;88161;10114;2829;2.72;VA;Black or African-American;39107
+North Little Rock;Arkansas;33.6;31671;34835;66506;4130;2787;2.62;AR;Hispanic or Latino;4860
+Jurupa Valley;California;33.8;49430;50884;100314;3833;25338;3.87;CA;White;58201
+Los Angeles;California;35.0;1958998;2012898;3971896;85417;1485425;2.86;CA;White;2177650
+Flower Mound;Texas;40.2;35200;35824;71024;4217;6860;3.01;TX;Hispanic or Latino;6149
+Vacaville;California;35.8;50091;46703;96794;9064;10577;2.9;CA;Black or African-American;18023
+Clarksville;Tennessee;29.7;75029;74161;149190;20803;8211;2.64;TN;American Indian and Alaska Native;2338
+New Britain;Connecticut;33.4;37350;35459;72809;2219;15080;2.52;CT;White;56431
+Tulsa;Oklahoma;35.0;197437;205654;403091;24672;43751;2.37;OK;Black or African-American;72643
+Seattle;Washington;35.5;345659;338784;684443;29364;119840;2.13;WA;Hispanic or Latino;43060
+Mesa;Arizona;36.9;234998;236835;471833;31808;57492;2.68;AZ;American Indian and Alaska Native;16044
+Yonkers;New York;38.0;96580;104538;201118;4801;61247;2.8;NY;Hispanic or Latino;73608
+Camden;New Jersey;27.9;36437;39694;76131;1425;11317;3.0;NJ;White;19907

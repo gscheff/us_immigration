@@ -28,6 +28,14 @@ Features
 
 * TODO
 
+
+Usage
+-----
+
+  - docker build -t my/aws-glue-base .
+  - bash start_local_spark_cluster.sh
+  - jupyter lab --no-browser --allow-root --ip 0.0.0.0 --port=8888 &
+
 Credits
 -------
 
